@@ -29,7 +29,7 @@ const SearchParams = () => {
   return (
     <div className="my-0 mx-auto w-11/12">
       <form
-        className="p-10 mb-10 rounded-lg bg-gradient-to-tl from-rose-200/50 via-purple-200/90 to-rose-200/50 shadow-lg flex flex-col justify-center items-center"
+        className="p-10 mb-10 rounded-lg bg-gradient-to-r from-rose-200/50 via-purple-200/90 to-rose-200/50 shadow-lg flex flex-col justify-center items-center"
         onSubmit={(e) => {
           e.preventDefault();
           requestPets();
